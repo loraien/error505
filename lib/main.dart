@@ -15,14 +15,12 @@ class MyApp extends StatelessWidget {
           leading: IconButton(
             onPressed: (){},
             icon: Icon(Icons.notes_outlined),
-            alignment: Alignment.topLeft,
           ),
           actions: <Widget>[
               IconButton(
                 icon: Icon(
                 Icons.notifications_on_outlined,
                 color: Colors.white),
-                alignment: Alignment.topRight,
                 onPressed: () {},
               ),
           ],
